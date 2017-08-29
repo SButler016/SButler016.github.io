@@ -1,0 +1,21 @@
+# Site settings
+title: The Journey to Code
+header-img: img/home-bg.png
+email: sbutler016@gmail.com
+copyright_name: SButler016
+description: > # this means to ignore newlines until "baseurl:"
+  Going from stage to coding 
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  SButler016
+learn_profile: SButler016
+email_username: sbutler016@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
